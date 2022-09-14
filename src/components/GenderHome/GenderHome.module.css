@@ -1,0 +1,22 @@
+.GenderHome{
+    background-color: gray;
+    width: 50%;
+    height: 1080px;
+    margin: 0 0 0 0;
+    display: inline-block;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: #4BFF5D;
+    z-index: 1;
+}
+
+.photo:hover{
+    opacity: 0.5;
+    background: black;
+    transition: 0.1s ease-in;
+}
